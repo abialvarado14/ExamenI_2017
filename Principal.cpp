@@ -5,6 +5,7 @@
 #include "GuardiaReal.h"
 #include "Starks.h"
 #include "Lannister.h"
+#include "Targaryen.h"
 
 using namespace std;
 
