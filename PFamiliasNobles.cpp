@@ -1,48 +1,62 @@
 #include "PFamiliasNobles.h"
 #include<string>
-using namespace;
+#include<iostream>
 
-void setSimbolo(string s){
+using namespace std;
+
+PFamiliasNobles::PFamiliasNobles(){
+	simbolo = "";
+	nombre = "";
+	lema = "";
+	cant_personas = 0;
+	defensa =0;
+	ataque=0;
+}
+
+void PFamiliasNobles::setSimbolo(string s){
 	simbolo = s;
 }
 
-void setNombre(string name){
+void PFamiliasNobles::setNombre(string name){
 	nombre = name;
 }
 
-void setLema(string Lema){
+void PFamiliasNobles::setLema(string Lema){
 	lema = Lema;
 }
 
-void setPersonas (int cant){
+void PFamiliasNobles::setPersonas (int cant){
 	cant_personas = cant;
 }
 
-void setDefensa (int def){
+void PFamiliasNobles::setDefensa (int def){
 	defensa = def;
 }
 
-void setAtaque (int ataq){
+void PFamiliasNobles::setAtaque (int ataq){
 	ataque = ataq;
 }
 
-string getNombre(){
+string PFamiliasNobles::getNombre(){
 	return nombre;
 }
 
-string getLema(){
+string PFamiliasNobles::getLema(){
 	return lema;
 }
-string getSimbolo(){
+string PFamiliasNobles::getSimbolo(){
 	return simbolo;
 }
-int getPersonas(){
+int PFamiliasNobles::getPersonas(){
 	return cant_personas;
 }
-int getDefensa(){
+int PFamiliasNobles::getDefensa(){
 	return defensa;
 }
-int getAtaque(){
+int PFamiliasNobles::getAtaque(){
 	return ataque;
+}
+PFamiliasNobles::~PFamiliasNobles(){
+	cout <<"Limpiando objeto" << this;
 }
 

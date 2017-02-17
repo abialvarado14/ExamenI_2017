@@ -1,9 +1,8 @@
 #include <string>
 
-using namespace;
+using namespace std;
 
-#ifndef "PFAMILIASNOBLES_H"
-#define "PFAMILIASNOBLES_H"
+#pragma once 
 
 class PFamiliasNobles{
 	private:
@@ -18,17 +17,17 @@ class PFamiliasNobles{
 		~PFamiliasNobles();
 
 		string getNombre();
-		string getSimbolo;
+		string getSimbolo();
 		string getLema();
 		int getPersonas();
-		int getPersonas();
 		int getDefensa();
+		int getAtaque();
 		void setNombre(string);
 		void setSimbolo(string);
 		void setLema(string);
 		void setPersonas(int);
-		void defensa(double);
-		void ataque(double);
+		void setAtaque(int);
+		void setDefensa(int);
 };
 
-#endif
+
