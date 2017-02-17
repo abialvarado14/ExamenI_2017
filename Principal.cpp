@@ -2,6 +2,7 @@
 #include <string> 
 #include "PFamiliasNobles.h"
 #include "Dothraki.h"
+#include "GuardiaReal.h"
 
 using namespace std;
 
@@ -23,6 +24,12 @@ struct Dothrakis{
 	int defensaD;
 	int ataqueD;
 };
+
+/*struct GuardiasReal{
+	string nombreG;
+	int edad;
+	string tipo_soldado;
+};*/
 
 int main(){
 	cout << "Hola";
