@@ -4,6 +4,7 @@
 #include "Dothraki.h"
 #include "GuardiaReal.h"
 #include "Starks.h"
+#include "Lannister.h"
 
 using namespace std;
 
