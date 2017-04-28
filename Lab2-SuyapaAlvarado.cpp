@@ -8,6 +8,8 @@
 		if (opc==1){
 			cout << "Ingrese el valor de x: ";
 			cin >> x;
+		}else{
+
 		}
 	
 
